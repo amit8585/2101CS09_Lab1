@@ -21,6 +21,15 @@ int main() {
     case '*':
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
       break;
+    case '/':
+      printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
+      break;
+    //If  operator doesn't match any case constant
+    default:
+      printf("Error! Selected operator is not correct , Please recheck.");
+  }
+  return 0;
+}
   
 
 
